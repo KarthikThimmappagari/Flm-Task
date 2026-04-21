@@ -85,5 +85,3 @@ To run this project locally, follow these steps:
 ## 👤 About the Project
 This project was developed to showcase the transition from "functional MVP" to "premium production-grade application." It focuses on the intersection of **clean code**, **user-centric design**, and **optimal performance**.
 
-**Author**: [Karthik Thimmappagari]
-**GitHub**: [@KarthikThimmappagari](https://github.com/KarthikThimmappagari)
