@@ -37,26 +37,26 @@ export function Modal({ isOpen, onClose, company }) {
             {/* Scrollable Body */}
             <div className="overflow-y-auto px-6 md:px-10 pb-8 custom-scrollbar">
               {/* Profile Bar */}
-              <div className="relative -mt-10 md:-mt-12 flex flex-col md:flex-row items-center md:items-end gap-4 md:gap-6 mb-8 text-center md:text-left">
-                <div className="shrink-0 w-24 h-24 md:w-28 md:h-28 rounded-2xl bg-white p-1 shadow-xl border-4 border-white overflow-hidden">
+              <div className="relative -mt-12 md:-mt-14 flex flex-col md:flex-row items-center md:items-end gap-5 md:gap-6 mb-10 text-center md:text-left">
+                <div className="shrink-0 w-24 h-24 md:w-32 md:h-32 rounded-[2rem] bg-white p-1.5 shadow-2xl border-4 border-white overflow-hidden ring-4 ring-slate-900/5">
                   <img
                     src={company.logo}
                     alt={company.name}
-                    className="w-full h-full object-cover rounded-xl"
+                    className="w-full h-full object-cover rounded-[1.5rem]"
                     onError={(e) => {
                       e.target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(company.name)}&background=random`;
                     }}
                   />
                 </div>
-                <div className="md:pb-2">
-                  <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 leading-tight tracking-tight">
+                <div className="md:pb-3 space-y-1">
+                  <h2 className="text-3xl md:text-4xl font-black text-slate-900 leading-tight tracking-tight">
                     {company.name}
                   </h2>
-                  <div className="flex items-center justify-center md:justify-start gap-2 text-indigo-600 font-semibold mt-1">
-                    <div className="p-1 bg-indigo-50 rounded-md">
+                  <div className="flex items-center justify-center md:justify-start gap-2.5 text-indigo-600 font-bold">
+                    <div className="p-1.5 bg-indigo-50 rounded-lg">
                       <Briefcase size={14} />
                     </div>
-                    <span className="text-sm tracking-wide">{company.industry}</span>
+                    <span className="text-sm tracking-wide uppercase">{company.industry}</span>
                   </div>
                 </div>
               </div>
