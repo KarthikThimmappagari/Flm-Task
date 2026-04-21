@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "TechNova Solutions",
+    "location": "San Francisco, CA",
+    "industry": "Software Development",
+    "description": "Building the next generation of cloud infrastructure and AI-driven analytics tools for enterprises.",
+    "logo": "https://api.dicebear.com/7.x/initials/svg?seed=TN"
+  },
+  {
+    "id": 2,
+    "name": "GreenLeaf Biotech",
+    "location": "Boston, MA",
+    "industry": "Biotechnology",
+    "description": "Revolutionizing sustainable agriculture through genetic engineering and organic pest control methods.",
+    "logo": "https://api.dicebear.com/7.x/initials/svg?seed=GL"
+  },
+  {
+    "id": 3,
+    "name": "Apex Finance",
+    "location": "New York, NY",
+    "industry": "Financial Services",
+    "description": "High-frequency trading platforms and personalized wealth management services for modern investors.",
+    "logo": "https://api.dicebear.com/7.x/initials/svg?seed=AF"
+  },
+  {
+    "id": 4,
+    "name": "SkyBound Aerospace",
+    "location": "Seattle, WA",
+    "industry": "Aerospace",
+    "description": "Pioneering commercial space travel and sub-orbital satellite deployment systems.",
+    "logo": "https://api.dicebear.com/7.x/initials/svg?seed=SA"
+  },
+  {
+    "id": 5,
+    "name": "Lumina Creative",
+    "location": "Los Angeles, CA",
+    "industry": "Digital Marketing",
+    "description": "Award-winning digital agency specializing in brand storytelling and immersive web experiences.",
+    "logo": "https://api.dicebear.com/7.x/initials/svg?seed=LC"
+  },
+  {
+    "id": 6,
+    "name": "Zenith Healthcare",
+    "location": "Chicago, IL",
+    "industry": "Healthcare",
+    "description": "Patient-centric healthcare solutions and telemedicine platforms for underserved communities.",
+    "logo": "https://api.dicebear.com/7.x/initials/svg?seed=ZH"
+  },
+  {
+    "id": 7,
+    "name": "Stellar Logistics",
+    "location": "Houston, TX",
+    "industry": "Logistics",
+    "description": "Global supply chain management powered by blockchain and real-time tracking systems.",
+    "logo": "https://api.dicebear.com/7.x/initials/svg?seed=SL"
+  },
+  {
+    "id": 8,
+    "name": "Vortex Energy",
+    "location": "Denver, CO",
+    "industry": "Renewable Energy",
+    "description": "Developing high-efficiency wind turbines and residential solar storage solutions.",
+    "logo": "https://api.dicebear.com/7.x/initials/svg?seed=VE"
+  },
+  {
+    "id": 9,
+    "name": "CyberShield AI",
+    "location": "Austin, TX",
+    "industry": "Cybersecurity",
+    "description": "Self-healing security protocols driven by neural networks to protect critical infrastructure.",
+    "logo": "https://api.dicebear.com/7.x/initials/svg?seed=CS"
+  },
+  {
+    "id": 10,
+    "name": "BlueWave eCommerce",
+    "location": "Miami, FL",
+    "industry": "Retail",
+    "description": "Direct-to-consumer marketplace for artisan products and sustainable fashion.",
+    "logo": "https://api.dicebear.com/7.x/initials/svg?seed=BW"
+  },
+  {
+    "id": 11,
+    "name": "Pulse Robotics",
+    "location": "Pittsburgh, PA",
+    "industry": "Robotics",
+    "description": "Humanoid robots designed for elderly care and household assistance missions.",
+    "logo": "https://api.dicebear.com/7.x/initials/svg?seed=PR"
+  },
+  {
+    "id": 12,
+    "name": "Nova Stream",
+    "location": "Atlanta, GA",
+    "industry": "Entertainment",
+    "description": "Next-generation streaming platform with integrated social features and VR content.",
+    "logo": "https://api.dicebear.com/7.x/initials/svg?seed=NS"
+  }
+]
