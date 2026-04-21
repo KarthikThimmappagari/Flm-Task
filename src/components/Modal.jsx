@@ -37,8 +37,9 @@ export function Modal({ isOpen, onClose, company }) {
             {/* Scrollable Body */}
             <div className="overflow-y-auto px-6 md:px-10 pb-8 custom-scrollbar">
               {/* Profile Bar */}
-              <div className="relative -mt-12 md:-mt-14 flex flex-col md:flex-row items-center md:items-end gap-5 md:gap-6 mb-10 text-center md:text-left">
-                <div className="shrink-0 w-24 h-24 md:w-32 md:h-32 rounded-[2rem] bg-white p-1.5 shadow-2xl border-4 border-white overflow-hidden ring-4 ring-slate-900/5">
+              <div className="relative flex flex-col md:flex-row items-center md:items-end gap-5 md:gap-6 mb-10 text-center md:text-left">
+                {/* Floating Logo - Isolate negative margin here */}
+                <div className="shrink-0 -mt-12 md:-mt-16 w-24 h-24 md:w-32 md:h-32 rounded-[2rem] bg-white p-1.5 shadow-2xl border-4 border-white overflow-hidden ring-4 ring-slate-900/5">
                   <img
                     src={company.logo}
                     alt={company.name}
@@ -48,7 +49,9 @@ export function Modal({ isOpen, onClose, company }) {
                     }}
                   />
                 </div>
-                <div className="md:pb-3 space-y-1">
+                
+                {/* Text Content - Ensure it stays in the white area */}
+                <div className="md:pb-3 space-y-1.5">
                   <h2 className="text-3xl md:text-4xl font-black text-slate-900 leading-tight tracking-tight">
                     {company.name}
                   </h2>
